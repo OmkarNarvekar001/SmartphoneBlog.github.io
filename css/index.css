@@ -1,0 +1,80 @@
+.carousel-item img{
+    filter: brightness(50%);
+    height: 60vh;
+    width: 100%;
+}
+
+.carousel-caption{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption p{
+  font-size: 26px;
+  position: sticky;
+  bottom: 40px;
+ font-weight: bold;
+ color: rgb(155 236 157);
+}
+
+body{
+    background-color: rgb(124, 116, 116);
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.nav-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.55s ease-out;
+}
+
+.nav-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.row{
+    margin: 10px;
+}
+
+.card{
+    transition: transform 2s;
+    background-color:rgb(41, 42, 44);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.page-footer{
+    border: 2px soild red;
+}
+
+.card-title{
+  font-size: 26px;
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+    padding: 6px;
+}
+
+.card-text{
+  color: white;
+  color:rgb(240, 229, 229);
+    text-align: center;
+    font-family:cursive;
+    padding: 6px;
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/contact.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
+<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+<title>Contact us</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">SmartPhone Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="./index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./news&review.html">News and Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+	
+	<div class="jumbotron jumbotron-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h1 class="h1">
+						Contact us &nbsp; <small>Feel free to contact us</small></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="well well-sm">
+					<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="name">
+									Name</label>
+								<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+							</div>
+							<div class="form-group">
+								<label for="email">
+									Email Address</label>
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+									</span>
+									<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+							</div>
+							<div class="form-group">
+								<label for="subject">
+									Subject</label>
+								<select id="subject" name="subject" class="form-control" required="required">
+									<option value="na" selected="">Choose One:</option>
+									<option value="service">General Customer Service</option>
+									<option value="suggestions">Suggestions</option>
+									<option value="product">Product Support</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="name">
+									Message</label>
+								<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+									placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+								Send Message</button>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<form>
+				<legend><span class="glyphicon glyphicon-globe"></span>Our office</legend>
+				<address>
+					<strong>TechBlog, Inc.</strong><br>
+					795 Folsom Ave, Sector 8<br>
+					Mumbai,Bandra(W)<br>
+					<span title="Phone">
+						Phone no:</span>
+					(123) 456-7890
+				</address>
+				<address>
+					<strong>Omkar Narvekar</strong><br>
+					<a href="mailto:#">omkar@xyz.com</a>
+				</address>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="">
+            <form action="">
+              <div class="row d-flex justify-content-center">    
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>      
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Email address</label>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-warning mb-4">
+                    Subscribe
+                  </button>
+                </div>
+            </form>
+          </section>
+        </div>      
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © Copyright 2021 TechBlogs Inc. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
+
